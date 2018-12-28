@@ -1,0 +1,31 @@
+body{
+  font-family:sans-serif;
+  color:#363F59;
+  background-color: #F2F2F0;
+}
+img.round {
+  width: 160px;
+  border-radius: 50%;
+}
+center {
+  padding: 0px 32px;
+}
+hr {
+  border-color:#363F59;
+}
+a,
+a:visited {
+  color:#8D694C;
+}
+a:hover {
+  color:#BD9B84;
+}
+/*
+Site color scheme:
+8D694C - Brown Dark
+BD9B84 - Brown Medium
+D7C2AD - Brown Light
+F2F2F0 - background
+363F59 - Blue
+
+*/
