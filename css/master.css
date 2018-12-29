@@ -1,13 +1,9 @@
-
-.lightTan {
-  background-color: #F2F2F0;
-}
-img.round {
+.round {
   width: 64px;
   border-radius: 50%;
 }
 center {
-  padding: 0px 32px;
+  padding: 0 32px;
 }
 hr {
   border-color:#BD9B84;
