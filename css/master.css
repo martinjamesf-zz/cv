@@ -1,27 +1,101 @@
-/*
-Antarctican Mono Book
-font-family: antarctican-mono,sans-serif;
-font-weight: 400;
-font-style: normal;
-
-Antarctican Mono Bold
-font-family: antarctican-mono,sans-serif;
-font-weight: 700;
-font-style: normal;
-
-Antarctican Headline Bold
-font-family: antarctican-headline,sans-serif;
-font-weight: 400;
-font-style: normal;
-
-Antarctican Headline Bold
-font-family: antarctican-headline,sans-serif;
-font-weight: 700;
-font-style: normal;
-*/
-
-
 .name {
-  font-size:2.5rem;
-  font-weight: 600;
+  font-family: freight-sans-pro, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+}
+
+.docs-header {
+  FONT-FAMILY: freight-sans-condensed-pro, sans-serif;
+  FONT-SIZE: 1.8rem;
+  LINE-HEIGHT: 2.4rem;
+  TEXT-ALIGN: start;
+  LETTER-SPACING: 2px;
+}
+/*.header {padding: 24px 32px 64px 32px;}*/
+
+@media (min-width: 550px) {.header {
+    margin-top: 18rem;
+}
+}
+
+.header {
+    margin-top: 6rem;
+    text-align: center;
+}
+body {
+  border-top:solid 4px #fbbc05;
+  background-color:white;
+  min-height: 100vh;
+  overflow-y:auto;
+}
+html {
+  background-color:#fbbc05;
+  height:100%;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale( .9);
+  }
+  20% {
+    transform: scale( 1);
+  }
+  40% {
+    transform: scale( .9);
+  }
+  60% {
+    transform: scale( 1);
+  }
+  80% {
+    transform: scale( .9);
+  }
+  100% {
+    transform: scale( .9);
+  }
+}
+
+#heart {
+  position: relative;
+  width: 96px;
+  height: 90px;
+  animation: heartbeat 1s 3;
+}
+
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: red;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+#heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
 }
