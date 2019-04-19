@@ -7,7 +7,7 @@
 }
 
 .docs-header {
-  FONT-FAMILY: freight-sans-condensed-pro, sans-serif;
+  FONT-FAMILY: freight-text-pro, sans-serif;
   FONT-SIZE: 1.8rem;
   LINE-HEIGHT: 2.4rem;
   TEXT-ALIGN: start;
@@ -22,37 +22,31 @@
 
 .header {
     margin-top: 6rem;
-    text-align: center;
 }
 body {
-  border-top:solid 4px #fbbc05;
   background-color:white;
-  min-height: 100vh;
-  overflow-y:auto;
-}
-html {
-  background-color:#fbbc05;
-  height:100%;
+  color:#0A1612;
+
 }
 
 @keyframes heartbeat {
   0% {
-    transform: scale( .9);
+    transform: scale( .95);
   }
   20% {
     transform: scale( 1);
   }
   40% {
-    transform: scale( .9);
+    transform: scale( .96);
   }
   60% {
     transform: scale( 1);
   }
   80% {
-    transform: scale( .9);
+    transform: scale( .97);
   }
   100% {
-    transform: scale( .9);
+    transform: scale( .99);
   }
 }
 
@@ -71,7 +65,7 @@ html {
   top: 0;
   width: 50px;
   height: 80px;
-  background: red;
+  background: #F7CE3E;
   -moz-border-radius: 50px 50px 0 0;
   border-radius: 50px 50px 0 0;
   -webkit-transform: rotate(-45deg);
@@ -99,3 +93,4 @@ html {
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
+.footer {margin-bottom: 64px;}
