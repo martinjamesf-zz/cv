@@ -26,71 +26,13 @@
 body {
   background-color:white;
   color:#0A1612;
-
 }
 
-@keyframes heartbeat {
-  0% {
-    transform: scale( .95);
-  }
-  20% {
-    transform: scale( 1);
-  }
-  40% {
-    transform: scale( .96);
-  }
-  60% {
-    transform: scale( 1);
-  }
-  80% {
-    transform: scale( .97);
-  }
-  100% {
-    transform: scale( .99);
-  }
-}
-
-#heart {
-  position: relative;
-  width: 96px;
-  height: 90px;
-  animation: heartbeat 1s 3;
-}
-
-#heart:before,
-#heart:after {
-  position: absolute;
-  content: "";
-  left: 50px;
-  top: 0;
-  width: 50px;
-  height: 80px;
-  background: #F7CE3E;
-  -moz-border-radius: 50px 50px 0 0;
-  border-radius: 50px 50px 0 0;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-transform-origin: 0 100%;
-  -moz-transform-origin: 0 100%;
-  -ms-transform-origin: 0 100%;
-  -o-transform-origin: 0 100%;
-  transform-origin: 0 100%;
-}
-
-#heart:after {
-  left: 0;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-transform-origin: 100% 100%;
-  -moz-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
-  -o-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-}
 .footer {margin-bottom: 64px;}
+
+.textcenter {text-align: center;}
+
+.htwo{font-size:1.6rem;font-weight:600;letter-spacing: .1rem;}
+.f-right{text-align:right;}
+
+.images{max-width: 560px}
