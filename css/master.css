@@ -35,4 +35,4 @@ body {
 .htwo{font-size:1.6rem;font-weight:600;letter-spacing: .1rem;}
 .f-right{text-align:right;}
 
-.images{max-width: 560px}
+.images{max-width: 560px; width: 100%}
