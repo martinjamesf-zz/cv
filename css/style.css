@@ -127,7 +127,7 @@ a {
 }
 
 a:hover {
-  color: #0097d5;
+  color: #035AA6;
   text-decoration: none;
   outline: none;
 }
@@ -145,7 +145,7 @@ a:hover {
 }
 
 .text-color {
-  color: #0097d5;
+  color: #035AA6;
 }
 
 .page-title h1 {
@@ -161,7 +161,7 @@ a:hover {
   width: 40px;
   height: 2px;
   margin-left: -25px;
-  background: #0097d5;
+  background: #035AA6;
 }
 
 @media (max-width: 575px) {
