@@ -24,6 +24,7 @@ body {
 
 p {
   color: #0E1111;
+  font-family: 'Roboto'!important, sans-serif!important;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -805,3 +806,19 @@ img.round {border-radius: 4px;}
 .logo{
   font-family: "Work Sans", sans-serif;
   font-weight: 600;}
+
+.card-body .subtitle {
+	text-transform: uppercase;
+	color: grey;
+	font-size: 16px;
+	margin-bottom: 0px
+	
+}
+
+.card-body .title {
+	font-family: 'Playfair Display', serif;
+	font-size:21px;
+	font-weight:700;
+	
+	
+}
