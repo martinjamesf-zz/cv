@@ -9,26 +9,20 @@
 <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
 <!-- Main Stylesheet -->
 <link href="css/style.css" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap" rel="stylesheet">
-<!-- Global site tag (gtag.js) - Google Analytics --> 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7704531-4"></script> 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-7704531-4');
-</script>
-<script>
-  function age(birthday)
-{
-  birthday = new Date(birthday);
-  return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
-}
-  </script>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PL7WW52');</script>
+<!-- End Google Tag Manager -->
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL7WW52"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <nav class="navbar navbar-expand-lg  main-nav " id="navbar">
   <div class="container"> <a class="navbar-brand text-color logo" href="index.html"> James Martin </a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation"> <span class="ti-align-justify"></span> </button>
@@ -42,12 +36,12 @@
     </div>
   </div>
 </nav>
-<section class="section">
+<section class="section banner">
   <div class="container">
     <div class="row">
-      <div class="col-lg-11">
-        <h2>As an Experience Designer with over 
-          <script>document.write(age("1 May 2006"))</script> years in service, I help supply <span style="font-family: 'Playfair Display', serif; font-weight: 700;">design solutions, creative ideas,</span> and <span style="font-family: 'Playfair Display', serif;font-weight: 700;">process refinement</span>.</h2>
+      <div class="col-lg-10">
+        <h2 class="mb-4 ">As an Experience Designer with <strong>13<sup>+</sup></strong> years of experience, I help supply <span style="font-family: 'Libre Baskerville', serif;"><a href="corpcomms.html">design solutions</a>, <a href="">creative ideas</a>,</span> and <span style="font-family: 'Libre Baskerville', serif;"><a href="#">process refinement</a></span> to those in need.</h2>
+        <p>I’m also a curious intrapreneur that solves problems with creative solutions. I enjoy working with others and empowering them to grow. Please have a look at some of my favorite work that I am able to share freely. Don't hesitate to <span style="text-decoration:underline;"><a href="https://www.linkedin.com/in/martinjamesf/">contact me</a></span> to see more.</p>
       </div>
     </div>
   </div>
@@ -59,59 +53,29 @@
 <section class="portfolio">
   <div class="container">
     <div class="row">
-	<!-- Project 1 -->	
-      <div class="col-xl-6 col-md-12">
-        <div class="cardborder-0"> 
-		  <a href="corpcomms.html"> <img class="card-img-top" src="images/portfolio/1.jpg" alt="portfolio-project-1"></a>
-            <div class="card-body">
-              <p class="subtitle">B2E - Communications Platform</p>
-           	  <p class="title">Platform redesign for an enterprise auidence</p>
-			  <p class="description">Description</p>
-            </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-toggle="collapse" data-groups="[&quot;design&quot;,&quot;ux&quot;]">
+        <div class="position-relative inner-box">
+          <div class="image position-relative "> <a class="overlay-content" href="corpcomms.html"> <img src="images/portfolio/1.jpg" alt="portfolio-image" class="img-fluid w-100 d-block"> </a> </div>
         </div>
       </div>
-	<!-- Project 2 -->			
-      <div class="col-xl-6 col-md-12">
-        <div class="cardborder-0"> 
-		  <a href="fpaint.html"> <img class="card-img-top" src="images/portfolio/4.jpg" alt="portfolio-project-4"></a>
-            <div class="card-body">
-              <p class="subtitle">B2C - Console Web Application</p>
-           	  <p class="title">Treadmill console research and design</p>
-			  <p class="description">Description</p>
-            </div>
+      <div class="col-lg-4 col-6">
+        <div class="position-relative inner-box">
+          <div class="image position-relative "> <a class="overlay-content" href="fpaint.html"> <img src="images/portfolio/4.jpg" alt="portfolio-image" class="img-fluid w-100 d-block"> </a> </div>
         </div>
       </div>
-		
-    </div>
-	
-	<div class="row">
-	<!-- Project 3 -->	
-      <div class="col-xl-6 col-md-12">
-        <div class="cardborder-0"> 
-		  <a href="corpcomms.html"> <img class="card-img-top" src="images/portfolio/1.jpg" alt="portfolio-project-1"></a>
-            <div class="card-body">
-              <p class="subtitle">B2E - Communications Platform</p>
-           	  <p class="title">Platform redesign for an enterprise auidence</p>
-			  <p class="description">Description</p>
-            </div>
+      <div class="col-lg-4 col-6 mb-4">
+        <div class="position-relative inner-box" >
+          <div class="image position-relative "> <a class="overlay-content" href="workshops.html"> <img src="images/portfolio/2.jpg" alt="portfolio-image" class="img-fluid w-100 d-block"> </a> </div>
         </div>
       </div>
-	<!-- Project 4 -->			
-      <div class="col-xl-6 col-md-12">
-        <div class="cardborder-0"> 
-		  <a href="fpaint.html"> <img class="card-img-top" src="images/portfolio/4.jpg" alt="portfolio-project-4"></a>
-            <div class="card-body">
-              <p class="subtitle">B2C - Console Web Application</p>
-           	  <p class="title">Treadmill console research and design</p>
-			  <p class="description">Description</p>
-            </div>
+      <div class="col-lg-12 mb-4 shuffle-item" data-groups="[&quot;all&quot;]">
+        <div class="position-relative inner-box">
+          <div class="image position-relative "> <a href="https://www.behance.net/MARTINJAMESF" target="_blank">See other work on Behance<i class="ti-arrow-right m-1"></i></a></div>
         </div>
       </div>
-		
     </div>
   </div>
 </section>
-
 <!-- Portfolio End --> 
 
 <!-- Footer start -->
@@ -129,12 +93,12 @@
 </section>
 <!-- Footer End --> 
 
-<!-- jQuery -->
-<script src="plugins/jQuery/jquery.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- jQuery --> 
+<script src="plugins/jQuery/jquery.min.js"></script> 
+<!-- Bootstrap JS --> 
+<script src="plugins/bootstrap/bootstrap.min.js"></script> 
 
-<!-- Main Script -->
+<!-- Main Script --> 
 <script src="js/script.js"></script>
 </body>
 </html>
