@@ -27,24 +27,26 @@ p {
   font-family: 'Roboto'!important, sans-serif!important;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h0, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Work Sans", sans-serif;
   color: #000;
   font-weight: 400;
 }
-
+h0, .h0 {
+font-size: 42px;
+}
 h1, .h1 {
-  font-size: 45px;
+  font-size: 32px;
   text-transform: none;
 }
 
 h2, .h2 {
-  font-size: 42px;
-  line-height: 52px;
+  font-size: 26px;
+  line-height: 1.5;
 }
 
 h3, .h3 {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 34px;
 }
 
@@ -59,7 +61,8 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 14px;
+  font-size: 16px;
+font-weight: bold;
 }
 
 .text-sm {
@@ -175,7 +178,7 @@ a:hover {
 @media (max-width: 400px) {
   h2, .h2 {
     font-size: 32px;
-    line-height: 43px;
+    line-height: 1.2;
   }
 }
 
