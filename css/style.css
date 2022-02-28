@@ -1,7 +1,7 @@
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
 
-PROJECT:	Thomson
+PROJECT:	martinjamesf
 VERSION:	1.0
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
@@ -824,4 +824,18 @@ img.round {border-radius: 4px;}
 	font-weight:700;
 	
 	
+}
+
+.carousel-inner img {
+  margin: auto;
+  max-height:360px;
+}
+
+
+  
+.porfolioImg {
+    width:60%;
+    max-height: 280px;
+    border-radius: 3px;
+    border: 1px solid grey;
 }
