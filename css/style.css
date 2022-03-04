@@ -456,7 +456,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 
 .inner-box .image h3 {
-  color: #fff;
+  color: black;
 }
 
 .overlay-content h5 {
@@ -830,8 +830,6 @@ img.round {border-radius: 4px;}
   margin: auto;
   max-height:360px;
 }
-
-
   
 .porfolioImg {
     width:60%;
@@ -844,4 +842,9 @@ img.round {border-radius: 4px;}
 }
 .nav-item a:hover{
     color:#007bff!important;
+}
+
+.bull {
+    font-weight: 100;
+    color:dimgray;
 }
