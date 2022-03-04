@@ -839,3 +839,9 @@ img.round {border-radius: 4px;}
     border-radius: 3px;
     border: 1px solid grey;
 }
+.nav-item a {
+    color:black!important;
+}
+.nav-item a:hover{
+    color:#007bff!important;
+}
